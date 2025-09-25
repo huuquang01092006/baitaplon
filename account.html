@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Admin - Quản lý Người Dùng</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="account.css" />
+    <script src="account.js" defer></script>
+  </head>
+
+  <body>
+    <div class="app">
+      <aside class="sidebar" aria-label="Main sidebar">
+        <div class="brand" role="banner">
+          <div class="logo">AD</div>
+          <div>
+            <h1>Admin Panel</h1>
+            <p>Quản lý hệ thống</p>
+          </div>
+        </div>
+
+        <nav class="nav" role="navigation" aria-label="Primary">
+          <button><span class="dot" aria-hidden></span> Quản lý đăng ký</button>
+        </nav>
+
+        <button class="logout" aria-label="Log out">Log out</button>
+      </aside>
+
+      <main class="main" role="main">
+        <header class="header">
+          <div>
+            <h2 class="title">Quản lý Người Dùng</h2>
+            <div class="title-sub">Danh sách người dùng hệ thống</div>
+          </div>
+        </header>
+
+        <section class="card table-wrapper" aria-labelledby="user-table">
+          <table id="userTable">
+            <thead>
+              <tr>
+                <th>Họ tên</th>
+                <th>Số điện thoại</th>
+                <th>Yêu cầu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- JS sẽ thêm dữ liệu vào đây -->
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
